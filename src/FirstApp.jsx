@@ -3,7 +3,7 @@ const getMessage = (name) => `Hola ${name}`;
 const FirstApp = () => {
     return (
         <>
-            <code>{getMessage('Chris')}</code>
+            <h1>{getMessage('Chris')}</h1>
             <p>Soy un subtitulo</p>
         </>
     )
