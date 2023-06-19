@@ -1,10 +1,10 @@
 const getMessage = (name) => `Hola ${name}`;
 
-const FirstApp = () => {
+const FirstApp = ({ title, subTitle }) => {
     return (
         <>
-            <h1>{getMessage('Chris')}</h1>
-            <p>Soy un subtitulo</p>
+            <h1>{title}</h1>
+            <p>{subTitle + 1}</p>
         </>
     )
 }
