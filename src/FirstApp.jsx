@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const FirstApp = ({ title, subTitle, fullName }) => {
+export const FirstApp = ({ title, subTitle, fullName }) => {
 
     return (
         <>
